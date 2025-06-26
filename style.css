@@ -1,0 +1,233 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  color: black;
+  background-color: #fee9ad;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar {
+  background-color: #fca622;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 200px;
+  padding-left: 20px;
+  height: 70px;
+  font-size: 1.20rem;
+  
+}
+
+ul {
+  list-style: none;
+}
+
+.navbar a:hover {
+  color: #000000;
+}
+
+a {
+  color: #2d2d2f;
+  text-decoration: none;
+  font-size: 1.50rem;
+}
+
+h1{
+  text-align: center;
+  font-size: 4em;
+  
+  color: #3b0000;
+}
+
+.title{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+img {
+  width: 30vw;
+}
+
+.imagemDoJogo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+  height: 600px;
+  margin-left: 600px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #fca622;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.linkAtivo{
+    background-color: rgba(0, 0, 0, 0.438);
+    border-radius: 20px;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+parte da gameplay
+.gameplay{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.seringa{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25vw;
+  height: 20vw;
+  
+}
+
+.ladoALadoG{
+  display: flex;
+  align-items: center;
+}
+
+
+parte do tema
+.ladoALadoT{
+  display: flex;
+  align-items: center;
+}
+
+
+.tema{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ods{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20vw;
+  height: 20vw;
+}
+
+
+
+
+button{
+  background-color: #fca622; 
+  color: white;             
+  padding: 10px 20px;     
+  border: none;           
+  border-radius: 5px;     
+  font-size: 17px;       
+  display: flex;
+  
+}
+
+.botao:hover{
+  color: black;
+}
+
+
+.devs{
+  color: #3b0000;
+  text-align: center;
+  
+}
+
+.dev h4{
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+    unicode-bidi: isolate;
+}
+
+
+parte da historia
+
+.historia h1{
+  font-size: 3rem;
+  
+}
+
+.historia{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.personagem{
+  display: flex;
+  align-items: center;
+  width: 30vw;
+  height: 30vw;
+}
+
+.ladoALado{
+  display: flex;
+  align-items: center;
+}
+
+
+section {
+    padding: 20px;
+}
+
+div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.teste{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 80px auto;
+    gap: 20px;
+}
+
+
+.teste p{
+  font-size: 1.5rem;
+  
+}
+
+
+parte da historia aqui
+p {
+    display: block;
+    
+    unicode-bidi: isolate;
+}
