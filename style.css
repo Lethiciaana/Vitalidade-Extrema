@@ -43,8 +43,11 @@ a {
 h1{
   text-align: center;
   font-size: 4em;
-  
   color: #3b0000;
+}
+
+h3{
+  text-align: center;
 }
 
 .title{
@@ -153,24 +156,60 @@ button{
   color: black;
 }
 
+.dev {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 40px auto;
+  gap: 20px;
+}
+
+
+
+.lista {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 40px;
+}
 
 .devs{
   color: #3b0000;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  
   
 }
 
 .dev h4{
-    display: block;
-    font-size: 1.17em;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-weight: bold;
-    unicode-bidi: isolate;
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  unicode-bidi: isolate;
 }
 
+.devsImg {
+    border-radius: 80%;
+    margin-right: 40px;
+    width: 90px;
+    height: 90px;
+    margin-right: 30px;
+}
+
+
+.livio{
+  color: #3b0000;
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-left: 720px;
+  
+}
 
 parte da historia
 
@@ -201,25 +240,35 @@ parte da historia
 
 
 section {
-    padding: 20px;
+  padding: 20px;
 }
 
 div {
-    display: block;
-    unicode-bidi: isolate;
+  display: block;
+  unicode-bidi: isolate;
 }
 
 .teste{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1000px;
-    margin: 80px auto;
-    gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1500px;
+  margin: 80px auto;
+  gap: 20px;
+}
+
+.testeH{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 80px auto;
+  gap: 20px;
 }
 
 
-.teste p{
+
+.teste, .testeH p{
   font-size: 1.5rem;
   
 }
@@ -227,7 +276,19 @@ div {
 
 parte da historia aqui
 p {
-    display: block;
-    
-    unicode-bidi: isolate;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
 }
+
+
+
+
+
+
+
+
+
