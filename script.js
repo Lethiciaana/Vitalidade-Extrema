@@ -13,7 +13,10 @@ function trocarImagem() {
   'convite-20.png';
 
   const img3 =
-  'personagemm.png';
+  'boneca1.png';
+
+  const img4 =
+  'seringaVerde.png'
 
 
 if(estadoImagem === 0){
@@ -27,12 +30,9 @@ if(estadoImagem === 0){
   imagem.src = img3;
   estadoImagem ++;
 }else if(estadoImagem === 3){
-  imagem.src = img1;
+  imagem.src = img4;
   estadoImagem ++;
 }
-
-/////arruma o erro que nao recomeça tudo de novo
-
 }
 
 botao.addEventListener('click', trocarImagem);
