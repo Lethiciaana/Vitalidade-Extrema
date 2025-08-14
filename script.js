@@ -34,5 +34,4 @@ if(estadoImagem === 0){
   estadoImagem ++;
 }
 }
-
 botao.addEventListener('click', trocarImagem);

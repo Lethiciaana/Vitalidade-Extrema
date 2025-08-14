@@ -57,9 +57,7 @@ h3{
   justify-content: center;
 }
 
-img {
-  width: 30vw;
-}
+
 
 .imagemDoJogo {
   display: flex;
@@ -86,10 +84,6 @@ footer {
     border-radius: 20px;
     padding: 10px;
 }
-
-
-
-
 
 
 
@@ -139,7 +133,14 @@ parte do tema
   height: 20vw;
 }
 
-
+.botao1{
+    margin-left: 400px;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+}
 
 
 button{
@@ -154,6 +155,10 @@ button{
 }
 
 .botao:hover{
+  color: #000000;
+}
+
+.botao1:hover{
   color: #000000;
 }
 

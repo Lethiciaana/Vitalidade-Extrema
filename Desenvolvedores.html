@@ -1,83 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Desenvolvedores</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="stylesheet" href="style.css" />
-    <script type="module" src="script.js"></script>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Special+Gothic&family=WDXL+Lubrifont+JP+N&family=WDXL+Lubrifont+SC&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+<head>
+  <title>Desenvolvedores</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width" />
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Special+Gothic&family=WDXL+Lubrifont+JP+N&family=WDXL+Lubrifont+SC&family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
 
 
 
 
 
-  </head>
-  <body>
-    <div class="navbar">
-     <ul class="navbar">
+</head>
+
+<body>
+  <div class="navbar">
+    <ul class="navbar">
       <li><a href="index.html">Inicio</a></li>
       <li><a href="historia.html">Historia</a></li>
       <li><a href="Gameplay.html">Gameplay</a></li>
       <li><a href="tema.html">Tema</a></li>
       <li><a href="Desenvolvedores.html" class="linkAtivo">Desenvolvedores</a></li>
-     </ul>
-    </div>
-     
-    <section id="dev" class="dev">
+    </ul>
+  </div>
+
+
+
+  <section id="dev" class="dev">
     <h1>Desenvolvedores</h1>
-     <h3>Um grupo de estudantes do ensino médio decidiu criar um jogo ambientado em um hospital e seus <b>desenvolvedores</b> foram:</h3>
+    <h3>Um grupo de estudantes do ensino médio decidiu criar um jogo ambientado em um hospital e seus
+      <b>desenvolvedores</b> foram:
+    </h3>
+
+    <button class="botao1" onclick="openModal()">
+      <img src="daniel.jpeg" alt="" width="200">
+    </button>
+
+    <div class="modal">
+      <div>+
+        <dialog>
+        <img src="daniel.jpeg" alt="" width="500">
+          <button  class="botao1" --onclick="closeModal()">
+            Fechar
+          </button>
+        </dialog>
+      </div>
+    </div>
+
     <div class="lista">
       <div class="devs">
-        <div id="ladoALado" class="devs"> 
+        <div id="ladoALado" class="devs">
           <img class="devsImg" src="eu.jpg" alt="">
           <div>
             <h4>🎮💻 Ana Lethicia</h4>
           </div>
         </div>
-        
-        </div>
-        <div class="devs">
-          <img class="devsImg" src="Naara.jpeg" alt="">
-          <div>
-            <h4>🎨 Naara B.S Bahia</h4>
-          </div>
-        </div>  
-        <div class="devs">
-          <img class="devsImg" src="daniel.jpeg" alt="">
-          <div>
-            <h4>🎨 Daniel alves</h4>
-          </div>
-        </div>  
-        <div class="devs">
-          <img class="devsImg" src="lima.jpeg" alt="">
-          <div>
-            <h4>🎨 Yasmin Lima</h4>
-          </div>
-        </div>  
+
       </div>
+      <div class="devs">
+        <img class="devsImg" src="Naara.jpeg" alt="">
+        <div>
+          <h4>🎨 Naara B.S Bahia</h4>
+          <p>Foi uma experiência diferente e divertida. Passei por vários desafios e problemas que não sabia como
+            resolver, mas apesar de tudo, eu ri muito e aprendi a lidar com muita coisa, como programas, pessoas e
+            situações diversas.</p>
+        </div>
+      </div>
+      <div class="devs">
+        <img class="devsImg" src="daniel.jpeg" alt="">
+        <div>
+          <h4>🎨 Daniel alves</h4>
+          <p>Fazer o jogo foi bem trabalhoso, mas também emocionante, com prazos de entregas e meu grupo um pouco
+            atrasado com alguns trabalhos, mas no final conseguimos fazer o jogo.</p>
+        </div>
+      </div>
+      <div class="devs">
+        <img class="devsImg" src="lima.jpeg" alt="">
+        <div>
+          <h4>🎨 Yasmin Lima</h4>
+          <p>Fazer esse jogo foi um grande desafio, me divertir bastante fazendo ele, mas também teve vezes que achei
+            que não ia conseguir fazer.</p>
+        </div>
+      </div>
+      <div class="devs">
+        <img class="devsImg" src="eliel.jpeg" alt="">
+        <div>
+          <h4>🎮 Eliel</h4>
+          <p>Eu gostei da experiência do jogo,No início não tinha desenvolvido tanto mas depois percebi que era bom e divertido criar um jogo.
+             O jogo me deu uma mente mais aberta de como é criar um jogo. Espero que tenha mais oportunidades de fazer isso futuramente.</p>
+        </div>
+      </div>
+      <div class="devs">
+        <img class="devsImg" src="livia.jpeg" alt="">
+        <div>
+          <h4>🎮 Livio</h4>
+          <p>Foi uma experiência diferente, vi problemas, vi acertos, vi soluções onde não imaginava ter, mas foi legal, cansativo e cansativo, uma experiência onde preciso ter mais personalidade em questões trabalhosas como essa.</p>
+        </div>
+      </div>  
+
+
     </div>
-    </section>
-
-    
-    <div class="livio">
-          <img class="devsImg" src="livia.jpeg" alt="">
-          <div>
-            <h4>🎮 Livio</h4>
-          </div> 
-
-
-
+    </div>
+  </section>
 
 
 
     <footer>
-     <p>NAVE Rio</p>
-     <p>Rio de Janeiro, RJ - 2025</p>
-     <p>Oficina Integrada 2</p>
+      <p>NAVE Rio</p>
+      <p>Rio de Janeiro, RJ - 2025</p>
+      <p>Oficina Integrada 2</p>
     </footer>
-  </body>
+
+    <script src="modal.js"></script>
+</body>
+
 </html>
