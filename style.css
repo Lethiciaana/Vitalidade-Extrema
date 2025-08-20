@@ -9,6 +9,13 @@ body {
   background-color: #fee9ad;
 }
 
+.pagInicial{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 
 .container{
   display: flex;
@@ -24,7 +31,7 @@ body {
   padding-left: 20px;
   height: 70px;
   font-size: 1.20rem;
-  
+  width: 100%;
 }
 
 ul {
@@ -65,7 +72,6 @@ h3{
   justify-content: center;
   width: 50vw;
   height: 600px;
-  margin-left: 600px;
 }
 
 footer {
@@ -87,7 +93,8 @@ footer {
 
 
 
-parte da gameplay
+/* parte da gameplay */
+
 .gameplay{
   display: flex;
   flex-direction: column;
@@ -134,12 +141,16 @@ parte do tema
 }
 
 .botao1{
-    margin-left: 400px;
     background-color: transparent;
     padding: 0;
     border: none;
     border-radius: 5px;
     font-size: 17px;
+    transition: 0.5s;
+}
+
+.botao1:hover{
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 
@@ -151,7 +162,6 @@ button{
   border-radius: 5px;     
   font-size: 17px;       
   display: flex;
-  margin-left: 1640px;
 }
 
 .botao:hover{
@@ -166,6 +176,7 @@ button{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
   max-width: 1000px;
   margin: 40px auto;
   gap: 20px;
@@ -174,8 +185,10 @@ button{
 
 
 .lista {
-  display: grid;
-  grid-template-columns: auto auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   gap: 40px;
 }
 
@@ -197,6 +210,10 @@ button{
   margin-inline-end: 0px;
   font-weight: bold;
   unicode-bidi: isolate;
+}
+
+.devs > div > p{
+  width: 300px;
 }
 
 .devsImg {

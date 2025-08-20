@@ -4,7 +4,6 @@ let estadoImagem = 0
 
 
 function trocarImagem() {
-  console.log('oi')
 
   const img1 =
   'seringa.png';
@@ -20,7 +19,6 @@ function trocarImagem() {
 
 
 if(estadoImagem === 0){
-  console.log(estadoImagem);
   imagem.src = img1;
   estadoImagem++;
 } else if(estadoImagem === 1){
@@ -31,7 +29,7 @@ if(estadoImagem === 0){
   estadoImagem ++;
 }else if(estadoImagem === 3){
   imagem.src = img4;
-  estadoImagem ++;
+  estadoImagem = 0;
 }
 }
 botao.addEventListener('click', trocarImagem);
